@@ -1,0 +1,178 @@
+h1 {
+  font-size: 45px;
+  text-decoration: underline;
+  text-shadow: 0pt 0pt 2pt white;
+}
+#container{
+    max-width: 980px;
+    max-height: 700px;
+}
+#page-section{
+    overflow: hidden;
+    position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+}
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.img img {
+  height: 300px;
+  width: 180px;
+}
+
+body {
+  background: #222629;
+  font-family: mono;
+  color: white;
+}
+
+
+
+
+.img {
+    margin-top: -200px;
+    margin-left: 600px;
+  }
+
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.img {
+    /* margin-left: 500\[; */
+    /* margin-left: 500\[x; */
+    margin-top: -250px;
+    margin-left: 600px;
+  }
+  
+  .txt h2 {
+    /* font-family: mono; */
+    font-size: 38px;
+  }
+  
+  /* style.css | http://127.0.0.1:5500/style.css?_cacheOverride=1645545553950 */
+  
+  .txt {
+    /* max-width: 300px; */
+    max-width: 450px;
+    margin-left: 80px;
+    font-family: mono;
+    text-shadow: 0pt 0pt 2pt white;
+    color: white;
+  }
+  
+  .txt button {
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: mono;
+    background: black;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+
+  .txt button:hover {
+    background: white;
+    color: black;
+    box-shadow: 0pt 0pt 50pt 0pt rgb(255, 254, 254);
+  }
+
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.skill-text {
+    text-align: center;
+  }
+  
+  .skill-text h1 {
+    font-size: 45px;
+    text-decoration: underline;
+    text-shadow: 0pt 0pt 2pt white;
+  }
+
+  
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.myskill {
+    text-align: center;
+    margin-top: 40px;
+    border: 2px solid;
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+    float: left;
+    margin-inline: 20px;
+    transition: 0.3s;
+    position: relative;
+    display: block;
+    border-radius: 10px;
+  }
+
+  
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+.skill-box {
+    margin-left: 60px;
+    /*! max-width: 800px; */
+    /*! float: left; */
+  }
+  
+
+/* Inline #1 | http://127.0.0.1:5500/index.html */
+
+  .myskill:hover{
+      box-shadow: 0pt 0pt 50pt 1pt #ffffffa3;
+  }
+  .ms_txt {
+    text-align: center;
+    /*! margin-top: 55px; */
+    display: block;
+  }
+  .ms_icn img {
+    width: 80px;
+  }
+  .myskill:hover img {
+    width: 125px;
+  }
+  .myskill img {
+    transition: 0.3s;
+  }
+@media (max-width:320px){
+  #container{
+    max-width: 300px;
+  }
+
+  .img {
+    margin-top: 20px;
+    margin-left: 60px ;
+  }
+  .txt{
+    margin-right: 60px;
+    max-width: 300px;
+  }
+
+  .skills{
+    font-size: small;
+  }
+  .skill-text{
+    font-size: 13px;
+  }
+  .skill-text h1{
+    font-size: 33px;
+  }
+  .skill-box{
+    max-width: 10px;
+    margin-right: 0px;
+    margin-left: 3.3px;
+  }
+  #page-section{
+    padding-bottom: 88px;
+  }
+}
